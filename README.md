@@ -51,7 +51,7 @@ Ahora tienes que escribir el código correcto en el fichero `src/soldier/Soldier
 
 ```javascript
 // Soldier
-export class Soldier {}
+module.exports = Soldier;
 
 ```
 
@@ -72,7 +72,7 @@ Continua haciendo lo mismo con los ficheros de test de los archivos: `Viking.ts`
 
 ## Ejercicio
 
-![](https://i.imgur.com/5TPElt8.jpg)
+![](https://depor.com/resizer/v2HfcHPs2nqwFJ8FrZnfdgezmgA=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/ACIIZ7YQGRCZNAIMMM6RWQWB6U.jpg)
 
 
 --------------------------------------------------------------------------------
@@ -263,4 +263,3 @@ Devuelve el estado actual de la guerra (`War`) basado en el tamaño de los ejér
 
 
 💪
-![Vikings picture](https://i.imgur.com/fHHEoEj.jpg)
