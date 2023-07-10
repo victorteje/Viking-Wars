@@ -6,7 +6,7 @@ En este ejercicio tendrás que aplicar los conceptos de programación orientada 
 
 ## Requisitos
 
-- Se te asignará el repositorio desde classroom. Busca tu usuario y acepta la tarea.
+- Se te asignará el repositorio desde classroom.
 
 ## Entrega
 - Hazte un fork el repositorio a tu entorno local
