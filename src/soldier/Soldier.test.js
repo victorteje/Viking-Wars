@@ -11,14 +11,14 @@ describe("Soldier", () => {
     test("should receive 2 arguments: health and strength ", () =>
       expect(Soldier.length).toEqual(2));
 
-    // test("should receive the health property as its 1st argument", () =>
-    //   expect(soldier.health).toEqual(health));
+    test("should receive the health property as its 1st argument", () =>
+      expect(soldier.health).toEqual(health));
 
-    // test("should receive the health property as its 1st argument", ()=>
-    // expect(soldier.strength).toEqual(strength));
+    test("should receive the strength property as its 2nd argument", ()=>
+    expect(soldier.strength).toEqual(strength));
   });
   describe("attack() method", () => {
-    // test("should be a function", ()=> expect(typeof(soldier.attack)).toBe("function"));
+    test("should be a function", ()=> expect(typeof(soldier.attack)).toBe("function"));
     // test("should receive 0 arguments", ()=> {
     //   expect(soldier.attack.length).toEqual(0);
     // });
