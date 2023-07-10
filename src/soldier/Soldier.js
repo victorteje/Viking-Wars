@@ -5,7 +5,18 @@ class Soldier {
     }
 
     attack() {
-        
+        return this.strength;
+    }
+
+    receiveDamage(damage){
+        damage = 50;
+        this.health = this.health - damage;
+        return this.health;
+    }
+
+    receiveDamage(damage){
+        damage = 50;
+        this.health = this.health - damage;
     }
 }
 
