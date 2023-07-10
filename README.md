@@ -47,7 +47,7 @@ Ahora el test (_should receive 2 arguments (health & strength)_) está fallando!
 
 **Escribe el código**
 
-Ahora tienes que escribir el código correcto en el fichero `src/soldier/Soldier.ts` para pasar el test. El código que encontrarás es el siguiente:
+Ahora tienes que escribir el código correcto en el fichero `src/soldier/Soldier.js` para pasar el test. El código que encontrarás es el siguiente:
 
 ```javascript
 // Soldier
@@ -68,7 +68,7 @@ class Soldier{
 
 Ahora que ya has pasado el primer test, descomenta el siguiente y sigue codificando para pasar los tests.
 
-Continua haciendo lo mismo con los ficheros de test de los archivos: `Viking.ts`, `Saxon.ts` y `War.ts`.
+Continua haciendo lo mismo con los ficheros de test de los archivos: `Viking.js`, `Saxon.js` y `War.js`.
 
 ## Ejercicio
 
