@@ -17,6 +17,7 @@ class Soldier {
     receiveDamage(damage){
         damage = 50;
         this.health = this.health - damage;
+        console.log(this.health);
     }
 }
 
