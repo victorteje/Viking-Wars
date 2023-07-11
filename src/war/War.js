@@ -1,6 +1,3 @@
-// const Saxon = require("../saxon/Saxon.js");
-// const Viking = require("../viking/Viking.js");
-
 class War{
     constructor() {
         this.vikingArmy = [];
@@ -35,6 +32,12 @@ class War{
 
         else {
             return this.vikingArmy[0].name + " has received " + this.saxonArmy[0].strength + " points of damage";
+        }
+    }
+
+    showStatus(){
+        if (this.saxonArmy.length === 0) {
+            return "Vikings have won the war of the century!";
         }
     }
 }

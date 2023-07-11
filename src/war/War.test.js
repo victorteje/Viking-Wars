@@ -123,16 +123,16 @@ describe("War", () => {
     });
 
     describe("showStatus() method", () => {
-      //   test("should be a function", () => {
-      //     expect(typeof (war.showStatus)).toBe("function");
-      //   });
-      //   test("should receive 0 arguments", () => {
-      //     expect(war.showStatus.length).toEqual(0);
-      //   });
-      //   test("should return \"Vikings have won the war of the century!\", if the Saxons array is empty", () => {
-      //     war.vikingAttack();
-      //     expect(war.showStatus()).toEqual("Vikings have won the war of the century!");
-      //   });
+        test("should be a function", () => {
+          expect(typeof (war.showStatus)).toBe("function");
+        });
+        test("should receive 0 arguments", () => {
+          expect(war.showStatus.length).toEqual(0);
+        });
+        test("should return \"Vikings have won the war of the century!\", if the Saxons array is empty", () => {
+          war.vikingAttack();
+          expect(war.showStatus()).toEqual("Vikings have won the war of the century!");
+        });
     });
   });
 });

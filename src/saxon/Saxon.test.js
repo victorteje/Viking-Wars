@@ -1,7 +1,7 @@
 const Saxon = require("./Saxon.js");
 const Soldier = require("../soldier/Soldier.js");
 
-describe.skip("Saxon", () => {
+describe("Saxon", () => {
   let saxon;
   let health = 60;
   let strength = 25;
