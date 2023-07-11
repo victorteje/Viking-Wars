@@ -24,6 +24,19 @@ class War{
             return "A Saxon has died in combat";
         }
     }
+
+    saxonAttack(){
+        let oldHealth = this.vikingArmy[0].health;
+        this.vikingArmy[0].health = oldHealth - this.saxonArmy[0].strength;
+
+        if (this.vikingArmy[0].health <= 0){
+           return this.vikingArmy.length = 0;
+        }
+
+        else {
+            return this.vikingArmy[0].name + " has received " + this.saxonArmy[0].strength + " points of damage";
+        }
+    }
 }
 
 module.exports = War;
