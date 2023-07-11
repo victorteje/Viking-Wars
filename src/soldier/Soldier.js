@@ -9,17 +9,8 @@ class Soldier {
     }
 
     receiveDamage(damage){
-        damage = 50;
         this.health = this.health - damage;
-        return this.health;
-    }
-
-    receiveDamage(damage){
-        damage = 50;
-        this.health = this.health - damage;
-        console.log(this.health);
     }
 }
-
 
 module.exports = Soldier;

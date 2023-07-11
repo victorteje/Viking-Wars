@@ -39,9 +39,9 @@ describe("Saxon", () => {
   });
 
   describe("receiveDamage() method", () => {
-    //   test("should be a function", ()=> {
-    //     expect(typeof(saxon.receiveDamage)).toBe("function");
-    //   });
+      test("should be a function", ()=> {
+        expect(typeof(saxon.receiveDamage)).toBe("function");
+      });
     //   test("should receive 1 argument (the damage)", ()=> {
     //     expect(saxon.receiveDamage.length).toEqual(1);
     //   });
