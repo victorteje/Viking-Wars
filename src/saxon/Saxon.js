@@ -1,4 +1,4 @@
-const Soldier = require("../soldier/Soldier");
+const Soldier = require("../soldier/Soldier.js");
 
 class Saxon extends Soldier{
     constructor(health, strength) {
